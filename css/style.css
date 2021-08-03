@@ -1,0 +1,62 @@
+header  {
+  
+    background-color: grey;
+  align-items: center;
+     display :grid;
+    
+    grid-template-columns: 50% auto;
+    align-content: center;
+  }
+   header img {width: 400px;
+  padding: 30px;}
+   
+  
+  header nav{text-align: center;
+  color: gray;}
+  
+  
+  
+  body {
+    border: 30px; ;
+    width: 970px;
+    margin: auto;
+    align-items: center;
+  }
+     header nav a:hover{
+       color: hotpink;
+  
+     }
+  
+     header nav a {
+       padding: 10px 10px;
+       display: inline-block;
+      
+       transition: all 400ms;
+     }
+  a {text-decoration: none;
+  color: rgb(192, 186, 186);}
+  
+  header  {
+      background-color: grey;
+     al
+       display :grid;
+      width: 100%;
+      grid-template-columns: 50% 50%;
+    }
+         
+        
+  section {
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    padding: 30px;
+    display: inline-block;
+  gap: 30px;}
+  
+         div { display: grid;
+         grid-template-columns: auto auto  ;
+         padding: 30px;
+         display: inline-block;
+       gap: 30px;
+       vertical-align: middle;}
+         
